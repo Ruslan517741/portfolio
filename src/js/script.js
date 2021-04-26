@@ -10,3 +10,10 @@ hamburger.addEventListener('click', () => {
 closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
+
+const percents = document.querySelectorAll('.skills__progress-percent'),
+        lines = document.querySelectorAll('.skills__progress-line');
+
+percents.forEach( (item,i) => {
+    lines[i].style.width = item.innerHTML;
+});
