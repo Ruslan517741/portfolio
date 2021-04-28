@@ -58,6 +58,7 @@
                 grid-column: unset;
             }
         }
+        
     }
     .contacts {
         &__wrapper {
@@ -208,6 +209,12 @@
             row-gap: 20px;
         }
     }
+    .pageup {
+        width: 30px;
+        height: 30px;
+        bottom: 30px;
+        right: 30px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -309,5 +316,11 @@
         &__btn {
             grid-row: 2 / 3;
         }
+    }
+    .pageup {
+        width: 25px;
+        height: 25px;
+        bottom: 15px;
+        right: 8px;
     }
 }
