@@ -13,6 +13,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    /* padding-left: 15px; */
 }
 
 .divider {
@@ -43,3 +44,4 @@
 @import 'blocks/portfolio';
 @import 'blocks/price';
 @import 'blocks/contacts';
+@import 'blocks/media';
